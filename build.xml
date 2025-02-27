@@ -29,8 +29,8 @@
 			</main>
 			<lib>
 				<fileset file="lib/json-simple-1.1.1.jar" />
-				<fileset file="lib/org.eclipse.core.runtime_3.23.0.v20210730-2035.jar" />
-				<fileset file="lib/org.eclipse.core.commands_3.10.100.v20210722-1426.jar" />
+				<fileset file="lib/org.eclipse.core.runtime_3.31.100.v20240524-2010.jar" />
+				<fileset file="lib/org.eclipse.core.commands_3.12.300.v20241229-1638.jar" />
 			</lib>
 		</one-jar>
 		<one-jar destfile="build/serverwiz2_win64.jar" onejarmainclass="com.ibm.ServerWizard2.ServerWizard2">
@@ -60,7 +60,7 @@
 				<fileset dir="build/classes" />
 			</main>
 			<lib>
-				<fileset file="lib/swt_macosx.jar" />
+				<fileset file="lib/swt.cocoa.macosx.aarch64-3.128.0.jar" />
 				<fileset file="lib/json-simple-1.1.1.jar" />
 				<fileset file="lib/org.eclipse*.jar" />
 				<fileset file="lib/jgit/*.jar" />
